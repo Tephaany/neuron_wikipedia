@@ -1,10 +1,10 @@
 import logging
 
-from kalliope.core.NeuronModule import NeuronModule, InvalidParameterException
+from intelora.core.NeuronModule import NeuronModule, InvalidParameterException
 import wikipedia
 
 logging.basicConfig()
-logger = logging.getLogger("kalliope")
+logger = logging.getLogger("intelora")
 
 
 class Wikipedia_searcher(NeuronModule):

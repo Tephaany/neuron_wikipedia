@@ -1,7 +1,7 @@
 import unittest
 
-from kalliope.core.NeuronModule import InvalidParameterException
-from kalliope.neurons.wikipedia_searcher import Wikipedia_searcher
+from intelora.core.NeuronModule import InvalidParameterException
+from intelora.neurons.wikipedia_searcher import Wikipedia_searcher
 
 
 class TestWikipediaSearcher(unittest.TestCase):
@@ -58,7 +58,7 @@ class TestWikipediaSearcher(unittest.TestCase):
     # def test_summary_found(self):
     #     parameters = {
     #         "language": "fr",
-    #         "query": "kalliope"
+    #         "query": "intelora"
     #     }
     #     wiki = Wikipedia_searcher(**parameters)
     #     self.assertEqual(wiki.returncode, "SummaryFound")

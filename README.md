@@ -6,7 +6,7 @@ Get the summary of a Wikipedia page.
 
 ## Installation
 ```
-kalliope install --git-url https://github.com/kalliope-project/kalliope_neuron_wikipedia.git
+intelora install --git-url https://github.com/intelora/neuron_wikipedia.git
 ```
 
 ## Options
@@ -52,7 +52,7 @@ This synapse will look for the {{ query }} spelt by the user on Wikipedia
 
 This template will simply make Kalliope speak out loud the summary section of the Wikipédia page of the query.
 If the query match more than one page, Kaliope will give the user all matched pages.
-If the query doesn't match any page on Wikipedia, kalliope will notify the user.
+If the query doesn't match any page on Wikipedia, intelora will notify the user.
 ```
 {% if returncode == "DisambiguationError" %}
     The query match following pages    
