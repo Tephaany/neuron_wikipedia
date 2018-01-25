@@ -1,8 +1,9 @@
-# wikipedia_searcher
+# intelora-wikipedia_searcher
+A Neuron that gives the summary of a Wikipedia page to the user
 
 ## Synopsis
 
-Get the summary of a Wikipedia page.
+Make Intelora provide you the summary of a Wikipedia page.
 
 ## Installation
 ```
@@ -32,6 +33,11 @@ intelora install --git-url https://github.com/intelora/neuron_wikipedia.git
 | SummaryFound        | A summary hs been found from the querry |
 | DisambiguationError | The query match more than ony one page. |
 | PageError           | No Wikipedia matched a query            |
+
+## Limitation
+-Plain text summary of the searched page
+-The query match more than ony one page.
+-Intelora will speak out loud the summary section of the Wikipédia page of the query. If the query match more than one page, Intelora will give the user all matched pages. If the query doesn't match any page on Wikipedia, intelora will notify the user.
 
 ## Synapses example
 
